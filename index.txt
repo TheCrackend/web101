@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PARADA 101</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <img src="img/logo.png" alt="Parada 101 logo" class="logo" />
+    <h1>PARADA 101</h1>
+    <p class="tagline">Restaurante auténtico en Barcelona</p>
+  </header>
+
+  <main>
+    <section class="bienvenida">
+      <h2>Bienvenidos</h2>
+      <p>En Parada 101 encontrarás platos caseros con sabor tradicional y productos frescos. ¡Tu próxima parada culinaria en el corazón de Barcelona!</p>
+    </section>
+
+    <section class="info">
+      <h2>Horario</h2>
+      <p>Martes a Sábado: 11:30 a 16:00 - 19:30 a 23:00<br/>Lunes y Domingo Tardes: Cerrado</p>
+    </section>
+
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <p>📍 Calle Via Augusta, 101 - Barcelona</p>
+      <p>📞 +34 617 64 74 00</p>
+      <p>✉️ info@parada101.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Parada 101. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

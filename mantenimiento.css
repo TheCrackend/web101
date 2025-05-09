@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #fefaf6, #f7f3ec);
+  font-family: 'Open Sans', sans-serif;
+  color: #2b2b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.maintenance-wrapper {
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  color: #1d1d1d;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.spinner {
+  width: 36px;
+  height: 36px;
+  border: 4px solid #ddd;
+  border-top: 4px solid #c1440e;
+  border-radius: 50%;
+  margin: 0 auto 2rem;
+  animation: spin 1.2s linear infinite;
+}
+
+.footer {
+  font-size: 0.95rem;
+  color: #777;
+  line-height: 1.4;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.countdown div {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  min-width: 60px;
+}
+
+.countdown span {
+  display: block;
+  font-size: 1.8rem;
+  color: #c1440e;
+}
+
+.countdown small {
+  font-size: 0.75rem;
+  color: #555;
+}
