@@ -10,7 +10,7 @@
 <body>
 
   <header>
-    <img src="img/logo.png" alt="Parada 101 logo" class="logo" />
+    <img src="logo.png" alt="Parada 101 logo" class="logo" />
     <h1>PARADA 101</h1>
     <p class="tagline">Restaurante auténtico en Barcelona</p>
   </header>
